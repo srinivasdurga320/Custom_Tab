@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#container {
+    background-color:#eceff1; /* Light gray */
+    padding: 10px;
+    display: flex;   
+    /* justify-content: space-between; */
+    /* align-content: center; */
+}
+
+#add-tab-btn {
+    padding: 10px 20px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #2196F3; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#add-tab-btn:hover {
+    background-color: #1976D2; /* Darker blue */
+}
+
+#tabs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #64B5F6; /* Light blue */
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.tab.active {
+    background-color: #2196F3; /* Blue */
+}
+
+.tab-close {
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#url-input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#content-frame {
+    width: 100%;
+    height: 80vh;
+    border: none;
+    border-radius: 0 0 4px 4px;
+}
